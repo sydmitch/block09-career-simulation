@@ -1,0 +1,55 @@
+main > img {
+  height: 325px;
+  width: 215px;
+  float: right;
+  margin: 20px 20px 20px 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+display: block;
+font-weight: bold;
+text-align: center;
+color: floralwhite;
+font-size: xx-large;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.active {
+  border-bottom: 1px solid black;
+}
+
+html {
+  background-color: rgb(66, 63, 63);
+}
+
+nav {
+  background-color: rgb(107, 156, 110);
+  height: 85px;
+  color: rgb(255, 255, 255);
+  padding-top: 5px; 
+  padding-bottom: 5px;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  color: floralwhite;
+}
+
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  color: floralwhite;
+}
+
+footer {
+  background-color: rgb(107, 156, 110);
+
+  color: floralwhite;
+  height: 85px;
+  padding: 10px;
+  text-align: center;
+  display: block;
+  
+}
