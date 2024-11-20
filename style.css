@@ -62,5 +62,27 @@ footer {
   right: 0;
   bottom: 0;
   
-  
+}
+
+/*project styles*/
+
+.project1 {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.project2 {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.project3 {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.project {
+  border-radius: 50px solid black;
+  margin: 10px;
+  text-align: left;
 }
