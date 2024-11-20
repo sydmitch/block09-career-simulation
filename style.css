@@ -86,3 +86,17 @@ footer {
   margin: 10px;
   text-align: left;
 }
+
+/*image styles*/
+.project-img {
+  width: 300px;
+  border-radius: 10 px;
+  text-align: right;
+  flex: 1
+  ;
+}
+
+.project-text {
+  flex: 1;
+  
+}
