@@ -19,8 +19,8 @@ font-size: xxx-large;
 font-family: Arial, Helvetica, sans-serif;
 }
 
-.active {
-  border-bottom: 1px solid black;
+h2 {
+  text-align: center;
 }
 
 html {
@@ -40,8 +40,18 @@ nav {
   align-items: center;
   justify-content: space-between;
   font-size: x-large;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px black;
 }
 
+nav a{
+  text-decoration: none;
+  color: floralwhite;
+  margin-left: 15px;
+}
+ nav a.active {
+  text-decoration: underline;
+ }
 
 main {
   font-family: Arial, Helvetica, sans-serif;
@@ -60,43 +70,41 @@ footer {
   font-size: large;
   left: 0;
   right: 0;
-  bottom: 0;
-  
+  bottom: 0; 
+  border: 2px solid black;
+  box-shadow: 0 4px 8px black;
 }
-
 /*project styles*/
-
-.project1 {
-  background-color: rgb(255, 255, 255);
-  color: black;
-}
-
-.project2 {
-  background-color: rgb(255, 255, 255);
-  color: black;
-}
-
-.project3 {
-  background-color: rgb(255, 255, 255);
-  color: black;
-}
-
 .project {
   border-radius: 50px solid black;
   margin: 10px;
   text-align: left;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px black;
+  background-color: white;
+  color: black;
+}
+
+  .project-text {
+    flex: 1;
+    text-align: left;
 }
 
 /*image styles*/
 .project-img {
-  width: 300px;
-  border-radius: 10 px;
-  text-align: right;
-  flex: 1
-  ;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  align-items: flex-end;
+  object-fit: cover;
+  flex: 1;
+  box-shadow: 0 1px 3px  rgba(0, 0, 0, 0.4);
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
 }
 
-.project-text {
-  flex: 1;
-  
-}
