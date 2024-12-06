@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* image styles */
 main > img {
   height: auto;
   width: 100%;
@@ -45,7 +45,7 @@ font-family: Arial, Helvetica, sans-serif;
 html {
   background-color: #ddbea9;
 }
-
+/* nav bar styles */
 nav {
   background-color: #7f584b;
   height: auto;
@@ -78,15 +78,13 @@ nav a{
   box-sizing: border-box;
   z-index: auto;
   font-weight: 500;
-  /* display: inline-flex; */
   margin: 10px;
   font-size: 1rem;
-  /* padding: 8px 12px; */
 }
  nav a.active {
   text-decoration: underline;
  }
-
+ /* main text */
 main {
   font-family: Arial, Helvetica, sans-serif;
   color: floralwhite;
@@ -101,6 +99,7 @@ form {
   margin: auto;  
   max-width: 100%;
 }
+/* footer styles */
 footer {
   background-color: #7f584b;
   color: floralwhite;
@@ -110,7 +109,6 @@ footer {
   border: 2px solid black;
   box-shadow: 0 4px 8px black;
 }
-
 /*project styles*/
 .project {
   border-radius: 50px solid black;
@@ -132,8 +130,6 @@ footer {
     flex: 1;
     margin-right: 20px;
   }
-
-
 /*image styles*/
 .project-img img{
   max-width: 300px;
@@ -151,7 +147,6 @@ footer {
   margin: 0 0 1em;
   border-bottom: 2px solid #ccc;
 }
-
 /* form styling */
 input {
   width: 100%;
@@ -163,7 +158,6 @@ textarea {
   width: 100%;
   font-size: 18px;
 }
-
 /* media queries and styling, breakpoints, for mobile*/
 @media only screen and (min-device-width: 400px) {
 
@@ -174,7 +168,6 @@ textarea {
   footer {
     width: 100%;
   }
-
  
   nav {
    flex-direction: row;
@@ -202,7 +195,6 @@ textarea {
     flex-direction: column;
     gap: 15px;
   }
-
 
   .project-img {
     min-width: 20rem;
